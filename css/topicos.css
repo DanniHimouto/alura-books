@@ -32,3 +32,13 @@
     text-decoration: none;
 }
 
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .topicos__lista {
+        padding: 0 17em;
+    }
+}

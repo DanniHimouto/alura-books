@@ -101,3 +101,31 @@
 .swiper-slide {
     box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.455);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 28px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 3em auto;
+    }
+
+    .swiper-slide {
+        margin: 0 3em;
+    }
+}
