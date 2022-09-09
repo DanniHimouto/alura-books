@@ -20,8 +20,12 @@
     align-items: center;
 }
 
-.container__img {
+.hamburguer__img {
     padding: 1em;
+}
+
+.container__img {
+    padding: 0.2em;
 }
 
 .lista-menu {
@@ -29,6 +33,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    z-index: 2;
 }
 
 .container__botao:checked ~ .lista-menu {
